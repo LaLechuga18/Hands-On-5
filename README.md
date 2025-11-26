@@ -25,7 +25,9 @@ El proyecto incluye:
 - gcc lex.yy.c y.tab.c -o hands-on-5.exe
 
 2. Ejecutar el analizador sobre un archivo de prueba:
-- ./hands-on-5 < input.c
+- ./hands-on-5 < input.c (PowerShell)
+- type input.c | hands-on-5.exe (CMD)
+
 
 3. Observar la salida que incluye:
 
