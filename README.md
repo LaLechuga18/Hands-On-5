@@ -22,7 +22,7 @@ El proyecto incluye:
 1. Generar el lexer y parser:
 - flex lexer.l
 - bison -d parser.y
-- gcc lex.yy.c y.tab.c -o hands-on-5.exe
+- gcc lex.yy.c parser.tab.c -o hands-on-5.exe
 
 2. Ejecutar el analizador sobre un archivo de prueba:
 - ./hands-on-5 < input.c (PowerShell)
